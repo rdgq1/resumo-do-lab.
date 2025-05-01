@@ -1,0 +1,39 @@
+Resumo: Computação em Rede no Azure
+Durante o laboratório, aprendi os principais conceitos e serviços de rede no Microsoft Azure, que são essenciais para conectar recursos, garantir segurança e controlar o tráfego em ambientes em nuvem. Abaixo estão os principais pontos abordados:
+
+Virtual Network (VNet)
+Uma VNet é como uma rede local, mas na nuvem.
+
+Permite a comunicação segura entre máquinas virtuais (VMs), serviços e redes locais (via VPN ou ExpressRoute).
+
+É personalizável com sub-redes, endereçamento IP, DNS personalizado, entre outros.
+
+Subnets
+Dividem a VNet em segmentos menores, isolando recursos por função (por exemplo, frontend e backend).
+
+Facilitam o controle de tráfego interno com NSGs (Network Security Groups).
+
+Network Security Groups (NSG)
+Controlam o tráfego de entrada e saída para recursos da rede.
+
+Funcionam como firewalls baseados em regras (por IP, porta, protocolo).
+
+Azure Firewall e Azure DDoS Protection
+Azure Firewall: solução gerenciada de segurança para proteger redes e filtrar tráfego.
+
+DDoS Protection: proteção contra ataques distribuídos de negação de serviço.
+
+VPN Gateway e ExpressRoute
+VPN Gateway: conecta a rede local à VNet via túnel criptografado pela internet.
+
+ExpressRoute: conexão privada e dedicada entre o data center local e o Azure, fora da internet pública.
+
+Load Balancer
+Distribui o tráfego entre diferentes VMs, aumentando alta disponibilidade e desempenho.
+
+Pode ser público (externo) ou interno.
+
+Application Gateway
+Um balanceador de carga de camada 7 (HTTP/HTTPS).
+
+Oferece recursos como WAF (Web Application Firewall) e roteamento baseado em URL.
