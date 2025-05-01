@@ -1,0 +1,45 @@
+No laboratório sobre armazenamento no Microsoft Azure, aprendi os principais serviços que permitem guardar, gerenciar e acessar dados de maneira escalável, segura e com alta disponibilidade. Abaixo estão os principais recursos estudados:
+
+Azure Storage Account
+Uma Storage Account é a base dos serviços de armazenamento no Azure.
+
+Permite armazenar diferentes tipos de dados, como arquivos, blobs, tabelas, filas e discos.
+
+Pode ser do tipo Standard (HDD, mais barato) ou Premium (SSD, melhor desempenho).
+
+Tipos de Armazenamento
+Blob Storage: ideal para armazenar grandes quantidades de dados não estruturados (imagens, vídeos, backups).
+
+Suporta três tipos de blobs: block blob, append blob e page blob.
+
+File Storage: fornece compartilhamento de arquivos via protocolo SMB, como um "servidor de arquivos" na nuvem.
+
+Queue Storage: serviço de mensagens assíncronas entre componentes distribuídos (mensageria simples).
+
+Table Storage: armazena dados NoSQL (chave-valor), útil para grandes volumes de dados estruturados com acesso rápido.
+
+Camadas de Acesso (Access Tiers)
+Hot: para dados acessados com frequência.
+
+Cool: para dados acessados com pouca frequência, com custo menor de armazenamento.
+
+Archive: para dados raramente acessados, com custo mínimo, porém com tempo maior para recuperação.
+
+Redundância de Dados (Replication)
+LRS (Locally Redundant Storage): cópia dos dados em um único datacenter.
+
+GRS (Geo-Redundant Storage): cópia em outra região geográfica.
+
+ZRS (Zone-Redundant Storage): cópia entre zonas de disponibilidade na mesma região.
+
+Azure Disk Storage
+Discos gerenciados para uso com máquinas virtuais (VMs).
+
+Tipos: Standard HDD, Standard SSD, Premium SSD e Ultra Disk, dependendo da performance desejada.
+
+Segurança e Gerenciamento
+Suporte a criptografia em repouso (Storage Encryption).
+
+Controle de acesso via Azure RBAC e SAS Tokens (Shared Access Signatures).
+
+Logs e monitoramento com Azure Monitor e Storage Analytics.
